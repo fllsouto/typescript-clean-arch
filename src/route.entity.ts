@@ -8,3 +8,10 @@ class Route{
         public points: LatLng[]
     ) {}
 }
+
+const rota = new Route('minha rota', 
+    {lat: 15, lng: 15},
+    {lat: 15, lng: 20},
+    [{lat: 15, lng: 15},
+    {lat: 15, lng: 20}],
+)
